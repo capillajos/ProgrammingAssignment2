@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## The first function sets the inverse "inverso" value to Null, then sets the function to work: calculate the inverse using solve, get the inverse and finally
+## print the list of cache spaces used.
 
 makeCacheMatrix <- function(x = matrix()) {
     inverso <- NULL
@@ -18,6 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
+## This function looks for the inverse in x$getInverso(), then analyses if it is Null, it will calculate a new one by getting the data into "data"
+## with the x&get function.
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
